@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dr42vu6u6kgvq"]
+
+[ext_resource type="TileSet" uid="uid://b0xcgs0p0r30y" path="res://Grids/tileset_demo.tres" id="1_3xl07"]
+[ext_resource type="Script" path="res://Grids/grid.gd" id="1_g831t"]
+
+[node name="TileMap" type="TileMap"]
+tile_set = ExtResource("1_3xl07")
+format = 2
+layer_0/tile_data = PackedInt32Array(0, 0, 0, 65536, 0, 0, 131072, 0, 1)
+script = ExtResource("1_g831t")
