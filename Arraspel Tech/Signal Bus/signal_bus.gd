@@ -14,10 +14,8 @@ func _add_signal_with_name(signal_name : String, args = null) -> void:
 	
 	if args != null:
 		add_user_signal(signal_name, _args)
-		print("added signal %s with args %s" % [signal_name, _args])
 	else:
 		add_user_signal(signal_name)
-		print("added signal %s without args" % signal_name)
 
 func _receive_signal_call(signal_name : String, args = null) -> void:
 	if args != null:
