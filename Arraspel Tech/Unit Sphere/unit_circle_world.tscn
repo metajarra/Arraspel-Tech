@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bniyou3b4cwmt"]
+
+[ext_resource type="Script" path="res://Unit Sphere/unit_sphere_getter.gd" id="1_grrwf"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(583, 308)
+script = ExtResource("1_grrwf")
