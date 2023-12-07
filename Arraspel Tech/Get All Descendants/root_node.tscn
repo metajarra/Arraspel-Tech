@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://dygn8ym7v4e"]
+
+[ext_resource type="Script" path="res://Get All Descendants/get_all_descendants.gd" id="1_qe8w5"]
+
+[node name="Root Node" type="Node"]
+script = ExtResource("1_qe8w5")
+
+[node name="Node A" type="Node" parent="."]
+
+[node name="Node AA" type="Node" parent="Node A"]
+
+[node name="Node AB" type="Node" parent="Node A"]
+
+[node name="Node B" type="Node" parent="."]
+
+[node name="Node BA" type="Node" parent="Node B"]
+
+[node name="Node BB" type="Node" parent="Node B"]
