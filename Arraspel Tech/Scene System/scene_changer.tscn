@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfp0cedah0hh6"]
+
+[ext_resource type="Script" path="res://Scene System/scene_changer.gd" id="1_ejyhd"]
+
+[node name="Scene Changer" type="Node"]
+script = ExtResource("1_ejyhd")

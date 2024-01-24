@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cuedxh1nk8qwd"]
+
+[ext_resource type="Script" path="res://Turn System/Scripts/turn_sensor.gd" id="1_0akvn"]
+
+[node name="Turn Sensor" type="Node"]
+script = ExtResource("1_0akvn")

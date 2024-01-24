@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4ht4pamybyms"]
+
+[ext_resource type="Script" path="res://Turn System/Scripts/turn_caller.gd" id="1_j1gn4"]
+
+[node name="Turn Caller" type="Node"]
+script = ExtResource("1_j1gn4")
