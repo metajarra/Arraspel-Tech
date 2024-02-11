@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://gtwqpd2a7rel"]
+
+[ext_resource type="PackedScene" uid="uid://c5b34ts4sp4ya" path="res://Events/conditional_event_trigger.tscn" id="2_vy072"]
+
+[node name="demo" type="Node"]
+
+[node name="Button" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "press to trigger event"
+
+[node name="Conditional Event Trigger" parent="." instance=ExtResource("2_vy072")]
+event_to_trigger = "res://Events/demo_event.tres"
+
+[connection signal="pressed" from="Button" to="Conditional Event Trigger" method="trigger_event"]

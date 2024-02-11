@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5b34ts4sp4ya"]
+
+[ext_resource type="Script" path="res://Events/conditional_event_trigger.gd" id="1_ftp1n"]
+
+[node name="Conditional Event Trigger" type="Node"]
+script = ExtResource("1_ftp1n")

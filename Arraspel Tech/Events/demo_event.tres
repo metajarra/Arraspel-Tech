@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Event" load_steps=2 format=3 uid="uid://n38elqdg3kgs"]
+
+[ext_resource type="Script" path="res://Events/event.gd" id="1_esjmi"]
+
+[resource]
+script = ExtResource("1_esjmi")
+title = "Demo title"
+description = ""
+options_and_effects = {}
+can_repeat = true
+can_be_called_randomly = true
