@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ca1afyqv7ki2w"]
+
+[ext_resource type="Script" path="res://Console Graphs/console_graph_test.gd" id="1_iueyc"]
+
+[node name="ConsoleGraphRunner" type="Node"]
+script = ExtResource("1_iueyc")
